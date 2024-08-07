@@ -7,5 +7,6 @@ public class Main {
         ManService manService = new ManService();
         manService.work(man);
         manService.rest(man);
+        manService.eat(man);
     }
 }
