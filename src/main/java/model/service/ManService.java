@@ -10,4 +10,8 @@ public class ManService {
     public void rest(Man man) {
         System.out.println("Rest : )");
     }
+
+    public void eat(Man man) {
+        System.out.println("Eating : )))))))");
+    }
 }
