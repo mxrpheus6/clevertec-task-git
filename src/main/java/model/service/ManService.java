@@ -1,5 +1,6 @@
 package model.service;
 
+import model.Cat;
 import model.Man;
 
 public class ManService {
@@ -13,5 +14,9 @@ public class ManService {
 
     public void eat(Man man) {
         System.out.println("Eating : )))))))");
+    }
+
+    public void petCat(Man man, Cat cat) {
+        System.out.println(" - Hello little friend!\n - Meow!");
     }
 }
