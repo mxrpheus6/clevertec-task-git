@@ -5,7 +5,7 @@ public class Dog {
         System.out.println("I'm a dog!");
     }
 
-    public void bark() {
+    private void bark() {
         System.out.println("Bark!");
     }
 }
