@@ -6,5 +6,6 @@ public class Main {
         Man man = new Man();
         ManService manService = new ManService();
         manService.work(man);
+        manService.rest(man);
     }
 }
